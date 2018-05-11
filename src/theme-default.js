@@ -12,7 +12,6 @@ const themeDefault = getMuiTheme({
     textColor: Colors.black,
     primaryTextColor: Colors.black,
     secondaryTextColor: "#455A64", //blueGrey700
-    //  alternateTextColor: '#ffffff',
     canvasColor: Colors.grey300,
     //canvasColor: emphasize(Colors.grey100, 0.46),
     accent1Color: "#23A596", //teal
