@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import R from "Ramda";
 import "./App.css";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import NavContainer from "./Nav/NavContainer";
