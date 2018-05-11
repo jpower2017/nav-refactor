@@ -1,0 +1,36 @@
+{
+  "grid": {
+    "name": "name one",
+    "table": {
+      "tableBody": {
+        "scroll": "false",
+        "stripedRows": "true",
+        "filter": "false"
+      },
+      "columns": [
+         { "name": "columnOne", "title": "Title column 1" },
+         { "name": "columnTwo", "title": "Title column 2" }
+      ]
+      "rows": {
+        "row": {
+          "value": "row value 1",
+          "backgroundColor": "#333",
+          "edit": "false",
+          "cell": {
+            "value": "value cell 1",
+            "type": "text"
+          },
+          "cell": {
+            "value": "value cell 2",
+            "type": "text"
+          }
+        },
+        "row": {
+          "value": "row value 2",
+          "backgroundColor": "#000",
+          "edit": "false"
+        }
+      }
+    }
+  }
+}

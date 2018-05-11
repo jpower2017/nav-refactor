@@ -1,0 +1,39 @@
+.slide-out {
+  transform: translateX(-200px);
+  transition: transform 1s ease-out;
+}
+.xx {
+  height: 20px;
+  transition: height 1.3s ease-out;
+}
+.height-out {
+  transform: "height :0px";
+  transition: "transform 1s ease-out";
+}
+
+.test {
+  border: 1px solid red;
+  background-color: "#009900";
+  color: "#990000";
+}
+.example-enter {
+  opacity: 0.01;
+  width: 0px;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  height: 100px;
+  transition: 700ms;
+}
+
+.example-leave {
+  opacity: 1;
+  height: 80px;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  height: 0px;
+  transition: 900ms;
+}
